@@ -1,0 +1,447 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Connect With Me Section*/
+
+.icons {
+	height: 67px;
+	width: 67px;
+}
+
+.icons:first-of-type {
+	margin-left: -1px;
+}
+
+.icons-stack {
+	height: 62px;
+	width: 62px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+
+.connect-section {
+	box-sizing: border-box;
+	float: right;
+	width: 270px;
+	border: solid 1px grey;
+	padding-left: 31px;
+	padding-right: 31px;
+	padding-bottom: 20px;
+	background: white;
+}
+
+#connect-heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#connect-line {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+
+/* Headings and Text Styles */
+
+.my-name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	color: white;
+	background: #4aaaa5;
+	display: inline-block;
+	padding-left: 44px;
+	padding-right: 44px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	left:80%;
+}
+
+h2.headings {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	padding-top: 10px;
+}
+
+.teal-words {
+	color: #4aaaa5;
+}
+
+li {
+	display: inline;
+	color: grey;
+}
+
+.nav-link {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav-text {
+	padding-top: 20px;
+	float: right;
+}
+
+.nav-about {
+	margin-right: 10px;
+}
+
+.nav-portfolio {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-contact {
+	margin-left: 10px;
+}
+
+.main-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	line-height: 150%;
+}
+
+
+
+
+/* Body, profile picture, header, */
+
+body {
+	box-sizing: border-box;
+	background: url('../images/Concrete.png');
+}
+
+.profile-pic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.main-section {
+	box-sizing: border-box;
+	max-width: 650px;
+	min-width: 650px;
+	padding-left: 33px;
+	padding-right: 33px;
+	border: 1px grey solid;
+	float: left;
+	clear: right;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+#main-section-line {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.content-area {
+	box-sizing: border-box;
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+header {
+	background: white;
+}
+
+.header-content {
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Portfolio: positioning images, and sizing them */
+
+.image-holder {
+	position: relative;
+	width: 274px;
+	float: left;
+}
+
+.project-label {
+	box-sizing: border-box;
+	position: absolute;
+	top: 115px;
+	background: #4aaaa5;
+	color: white;
+	height: 55px;
+	padding-top: 21px;
+	width: 87.5%;
+	text-align: center;
+	font-size: 19px;
+}
+
+.image-left {
+	margin-left: 0px;
+	margin-right: 17px;
+}
+
+.image-right {
+	margin-left: 17px;
+	margin-right: 0px;
+
+}
+
+.row1 {
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.row2 {
+	margin-bottom: 40px;
+}
+
+.row3 {
+	margin-bottom: 10px;
+}
+
+
+
+/* Contact.html: Text styles, sizing,clickable buttons, user input; */
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	margin-top: 15px;
+}
+
+#name {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#email {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 205px;
+	margin-top: 15px;
+}
+
+button {
+	background: #4aaaa5;
+	border: 0px;
+	height: 45px;
+	width: 120px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	margin-top: 23px;
+}
+
+
+
+
+/*Footer styling */
+
+footer {
+	background: #666666;
+	clear: both;
+	height: 80px;
+}
+
+#footer-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 12px;
+}
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 150px;
+}  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+    margin-top: -90px; /* negative value of footer height */
+    height: 90px;
+    clear: both;
+    border-top: 10px solid #4aaaa5;
+}
+
+/* Opera Fix */
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;
+}
+
+/* 980px media tag */
+ @media only screen and (max-width : 980px) {
+			.header-content {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.main-section {
+				max-width: 415px;
+				min-width: 415px;
+			}
+			.content-area {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.profile-pic {
+				width: 347px;
+				height: 250px;
+			}
+			.image-holder {
+				position: relative;
+				width: 347px;
+				float: left;
+			}
+			.image-holder a img {
+				width: 347px;
+				height: 267px;
+			}
+			.image-left {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			.image-right {
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			.project-label {
+				top: 195px;
+			}
+    }
+/* 768px media tag */
+    @media only screen and (max-width : 768px) {
+			.header-content {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.main-section {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.content-area {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.connect-section {
+				width: 725px;
+				margin-bottom: 40px;
+			}
+			.image-holder {
+				position: relative;
+				width: 309px;
+				float: left;
+			}
+			.image-holder a img {
+				width: 309px;
+				height: 232px;
+			}
+			.project-label {
+				top: 160px;
+			}
+			.image-left {
+				margin-left: 0px;
+				margin-right: 17px;
+			}
+			.image-right {
+				margin-left: 22px;
+				margin-right: 0px;
+			}
+    }
+
+/*  640px */
+    @media only screen and (max-width : 640px) {
+			.my-name {
+				display: block;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				padding-left: 197px;
+			}
+			.nav-text {
+				padding-top: 25px;
+				font-size: 20px;
+				float: none;
+				padding-bottom: 25px;
+			}
+
+			.nav-about {
+				margin-left: 80px;
+				margin-right: 65px;
+			}
+			.nav-portfolio {
+				margin-left: 65px;
+				margin-right: 65px;
+			}
+			.nav-contact {
+				margin-left: 65px;
+			}
+			.main-section {
+				max-width: 593px;
+				min-width: 593px;
+			}
+			.content-area {
+				max-width: 593px;
+				min-width: 593px;
+			}
+			.connect-section {
+				width: 593px;
+				margin-bottom: 40px;
+			}
+			.profile-pic {
+				margin-top: 8px;
+				width: 525px;
+				height: 400px;
+			}
+			#main-section-line {
+				margin-top: 20px;
+			}
+			.image-holder {
+				position: relative;
+				width: 525px;
+				float: left;
+			}
+			.image-holder a img {
+				width: 525px;
+				height: 397px;
+			}
+			.project-label {
+				top: 320px;
+			}
+			.image-left {
+				margin-left: 0px;
+			}
+			.image-right {
+				margin-left: 0px;
+			}
+    }
+
+
+
+
+
